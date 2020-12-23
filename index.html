@@ -147,7 +147,7 @@
                    <form>
                        <label>Email</label>
                         <div class="subscription-container">
-                            <input type="text" placeholder="Nombre@email.com" name="mail" required>
+                            <input type="email" placeholder="Nombre@email.com" name="mail" required>
                         </div>
                         
                         <div class="container">
@@ -166,19 +166,21 @@
                <div class="contacto-aside">
 
                     <form class="message-form">
-                        <label for="fname">First Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                        <label for="lname">Last Name</label>
-                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                        <label for="country">Country</label>
-                        <select id="country" name="country">
-                        <option value="australia">Australia</option>
-                        <option value="canada">Canada</option>
-                        <option value="usa">USA</option>
+                        
+                        <input class="form" type="text" placeholder="Nombre" name="nombre" required>
+
+                        <input class="form" type="email" placeholder="Nombre@email.com" name="mail" required>
+
+                        <select class="form" id="country" name="country">
+                            <option value="australia">Servicio tecnico</option>
+                            <option value="canada">Consultoria</option>
+                            <option value="usa">Ayuda</option>
                         </select>
-                        <label for="subject">Subject</label>
-                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-                        <input type="submit" value="Submit">
+
+                        <textarea class="form message-text" name="subject" placeholder="Mensaje"></textarea>
+
+                        <input class="form message-btn" type="submit" value="Submit">
+
                     </form>
 
                </div>
