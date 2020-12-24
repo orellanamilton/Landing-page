@@ -109,10 +109,25 @@
 
 .servicios__items {
     display: flex;
-    flex-direction: column;
     justify-self: space-around;
-    height: 100vh;
-    margin: auto;
+    height: 100%;
+    margin-left: auto ;
+    margin-right: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.servicios-description {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.servicios__items img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
 }
 
 /* CLIENTES */
@@ -121,6 +136,7 @@
     display: flex;
     flex-direction: column;
     height: 50vh;
+    background-color: blue;
 }
 
 .clientes__text {
@@ -145,6 +161,7 @@
 
 .contacto {
     height: 50vh;
+    background-color: beige;
 }
 
 .contacto-container {
@@ -157,9 +174,49 @@
     width: 50%;
 }
 
+.contacto__title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
 /* SUBSCRIPCION */
 
+.subscription {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+}
 
+.subscription-email {
+    width: 100%;
+}
+
+.subscription-bottom {
+    display: flex;
+    margin-top: 15px;
+}
+
+.subscription-bottom label {
+    font-size: .8rem;
+    width: 80%;
+}
+
+.subscription-btn {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+/* DATOS DE CONTACTO */
+
+.contacto-datos {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+}
 
 /* MENSAJE FORMULARIO */
 
