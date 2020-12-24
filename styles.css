@@ -15,8 +15,12 @@
 
 .logo {
     display: flex;
-    height: 50px;
-    width: 50px;
+    margin: 5px;
+}
+
+.logo img {
+    height: 150px;
+    width: 150px;
 }
 
 .nav-link{
@@ -36,6 +40,7 @@
 
 .welcome-page {
     height: 100vh;
+    width: 100vw;
     background-color: beige;
 }
 
@@ -58,15 +63,13 @@
 .nosotros__image {
     display:flex;
     height: 98%;
-    width: 50%;
     border: 1px red solid;
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 20px;
 }
 .nosotros__image img {
-    height: 100%;
-    width: auto;
+    display: none;
 }
 
 /* NOSOTROS TEXTO */
@@ -117,6 +120,7 @@
     padding-right: 100px;
 }
 
+
 .servicios-description {
     height: 50px;
     display: flex;
@@ -129,6 +133,7 @@
     height: 50px;
     margin-right: 10px;
 }
+
 
 /* CLIENTES */
 
@@ -237,4 +242,34 @@
 }
 .form {
     margin-top: 10px;
+}
+
+/* MOBILE  */
+
+@media screen and (max-width: 425px){
+    .logo img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .title {
+        font-size: 3.5rem;
+    }
+
+    .navlinks {
+        display:none;
+    }
+
+    /* SERVICIOS */
+
+    .servicios__items {
+        padding: 0px;
+    }
+
+    /* CLIENTES */
+
+    .clientes__logo img {
+        width: 25px;
+        height: 25px;
+    }
 }
