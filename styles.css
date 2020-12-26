@@ -124,6 +124,11 @@
     font-weight: 400;
 }
 
+.servicios-description span {
+    font-size:1.5rem;
+    font-weight: 400;
+}
+
 .servicios-aside {
     display: flex;
     flex-direction: column;
@@ -147,6 +152,7 @@
     height: 50px;
     display: flex;
     flex-direction: column;
+    color: white;
 }
 
 
@@ -302,6 +308,11 @@
 
     /* NOSOTROS */
 
+    .nosotros__texto {
+        margin-left: 5px;
+        font-size: .8rem;
+    }
+
     .nosotros__image {
         height: 20%;
     }
@@ -318,6 +329,14 @@
 
     .servicios-aside {
         width: 100%;
+    }
+
+    .servicios-aside{
+        margin-top: 20px;
+    }
+
+    .servicios-description {
+        font-size: .8rem;
     }
 
     /* CLIENTES */
