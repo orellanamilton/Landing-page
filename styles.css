@@ -46,7 +46,7 @@
 
 .welcome-page {
     height: 100vh;
-    background-color: #000000;
+    background-color: #212529;
 }
 
 .title {
@@ -62,7 +62,7 @@
 .nosotros-container {
     display: flex;
     height: 100vh;
-    background: violet;
+    background: #343a40;
 }
 
 /* NOSOTROS IMAGEN */
@@ -96,6 +96,7 @@
 
 .servicios{
     min-height: 100vh;
+    background-color: #495057 ;
 }
 
 .servicios-container {
@@ -105,7 +106,9 @@
 .servicios__title {
     text-align: center;
     font-size: 2rem;
-    margin-top: 50px;
+    padding-top: 20px;
+    background-color: #495057;
+    color: white;
 }
 
 .servicios-aside {
@@ -147,7 +150,7 @@
     display: flex;
     flex-direction: column;
     height: 50vh;
-    background-color: blue;
+    background-color: #6c757d;
 }
 
 .clientes__text {
@@ -172,7 +175,7 @@
 
 .contacto {
     height: 50vh;
-    background-color: beige;
+    background-color: #adb5bd;
 }
 
 .contacto-container {
@@ -259,6 +262,7 @@
 /* MOBILE  */
 
 @media screen and (max-width: 425px){
+
     .logo img {
         height: 30px;
         width: 30px;
