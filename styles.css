@@ -55,7 +55,7 @@
     position: absolute;
     bottom: 5px;
     width: 20%;
-    font-size: 10rem;
+    font-size: 5rem;
     color: white;
     font-weight: 500;
 }
@@ -84,7 +84,7 @@
 
 .nosotros__title {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     padding-top: 25px;
     background-color:#343a40;
     color: white;
@@ -102,7 +102,7 @@
     margin-top: 50px;
 }
 
-.nosotros__subtitle {
+.nosotros__description h3  {
     font-size: 1.5rem;
     font-weight: 400;
 }
@@ -120,15 +120,15 @@
 
 .servicios__title {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     padding-top: 25px;
     background-color:#495057;
     color: white;
     font-weight: 400;
 }
 
-.servicios-description span {
-    font-size:1.5rem;
+.servicios-description h3 {
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
@@ -175,11 +175,11 @@
     background-color: #6c757d;
 }
 
-.clientes__text {
+.clientes__title {
     margin-left: auto;
     margin-right: auto;
     padding: 25px;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 400;
     color: white;
 }
@@ -216,7 +216,7 @@
 
 .contacto__title {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 50px;
     padding-top: 25px;
     font-weight: 400;
