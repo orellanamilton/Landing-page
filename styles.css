@@ -44,6 +44,11 @@
     color: white;
 }
 
+.navlinks a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* WELCOME PAGE */
 
 .welcome-page {
@@ -85,7 +90,7 @@
 .nosotros__title {
     text-align: center;
     font-size: 2rem;
-    padding-top: 25px;
+    padding-top: 50px;
     background-color:#343a40;
     color: white;
     font-weight: 400;
@@ -121,7 +126,7 @@
 .servicios__title {
     text-align: center;
     font-size: 2rem;
-    padding-top: 25px;
+    padding-top: 50px;
     background-color:#495057;
     color: white;
     font-weight: 400;
@@ -182,6 +187,7 @@
     font-size: 2rem;
     font-weight: 400;
     color: white;
+    padding-top: 50px;
 }
 
 .clientes__logo {
@@ -199,19 +205,19 @@
 /* CONTACTO */
 
 .contacto {
-    height: 50vh;
+    min-height: 50vh;
     background-color: #adb5bd;
 }
 
 .contacto-container {
     display: flex;
-
 }
 
 .contacto-aside {
     display: flex;
     flex-direction: column;
     width: 50%;
+    margin-bottom: 50px;
 }
 
 .contacto__title {
@@ -288,7 +294,7 @@
 }
 
 .form {
-    margin-top: 10px;
+    margin-top: 50px;
     background-color:#adb5bd;
     border: none;
     border-bottom: 1px solid black;
